@@ -39,9 +39,6 @@ Upon uploading an image, the system processes it through the trained CNN model a
 A sample result with the plant's details and image will appear as follows:
 
 
-
-
-
 | ![Home Output](assets/home.png) | !![Dragdrop Output](assets/dragdrop.png) |
 |:------------------------------------------------:|:------------------------------------------------:|
 
