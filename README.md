@@ -40,12 +40,12 @@ A sample result with the plant's details and image will appear as follows:
 
 
 | ![Home Page Output](assets/home.png)          | ![Drag-and-Drop Feature](assets/dragdrop.png) |
-|:-----------------------------------------------:|:----------------------------------------------:|
 | **Home Page Output**                            | **Drag-and-Drop Feature**                      |
+|:-----------------------------------------------:|:----------------------------------------------:|
 
 | ![Sample Plant Identification Output 1](assets/output1.png) | ![Sample Plant Identification Output 2](assets/output2.png) |
-|:------------------------------------------------:|:------------------------------------------------:|
 | **Sample Plant Identification Output 1**        | **Sample Plant Identification Output 2**        |
+|:------------------------------------------------:|:------------------------------------------------:|
 
 
 This result demonstrates the application’s ability to accurately identify the plant species and provide relevant medicinal information based on the uploaded image.
