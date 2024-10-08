@@ -56,3 +56,5 @@ This result demonstrates the application’s ability to accurately identify the 
 - **Dataset Expansion**: Incorporating more plant species to increase identification accuracy.
 - **Real-Time Feedback**: Adding features for user feedback and community engagement.
 - **Multilingual Support**: Providing support for multiple languages to make the tool accessible globally.
+
+---
