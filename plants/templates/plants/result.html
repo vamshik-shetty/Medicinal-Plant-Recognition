@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Result</title>
+  <link rel="stylesheet" href="{% static 'plants/result.css' %}">
+</head>
+<body>
+  <div class="response-block">
+    <h1 class="response_heading" id="localNameHeading"></h1>
+    <div class="response-content">
+      <div class="right_side">
+        <span class="m">Scientific Name:</span>
+        <span id="scientificName"></span>
+        <br><br>
+        <span class="m">Local Name:</span>
+        <span id="localNameText"></span>
+        <br><br>
+        <span class="m">Medicinal Benefits:</span>
+        <br><br>
+        <ol id="medicinalBenefits">
+          <!-- Medicinal benefits will be dynamically added here -->
+        </ol>
+      </div>
+      <div class="left_side">
+        <div class="img">
+          <img src="" alt="Plant Image" id="plantImage" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <button id="redirectButtonHome" type="button" class="btn btn-success btn-lg mt-3 mb-5" onclick="handleHomeClick()">
+      Go to Home
+    </button>
+    <button id="redirectButtonUpload" type="button" class="btn btn-success btn-lg mt-3 mb-5" onclick="handleUploadClick()">
+      Upload New
+    </button>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 VSR. All rights reserved.</p>
+  </footer>
+
+  <script src="{% static 'scripts/result.js' %}"></script>
+</body>
+</html>

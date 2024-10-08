@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'plants/home.css' %}">
+  <title>Medicinal Plant Detection</title>
+</head>
+<body>
+  <div class="home">
+    <div class="content">
+      <div class="title">
+        <h1>Medicinal Plant Detection: The Future of Herbal Medicine</h1>
+      </div>
+      <div class="para">
+        <p>
+          Medicinal Plant Detection is a cutting-edge technology that leverages advanced machine learning and image processing algorithms to identify and classify medicinal plants with high accuracy. Our system is designed to assist herbalists, researchers, and enthusiasts in recognizing and validating medicinal plants, enhancing the efficiency of plant-based medicine research and applications.
+        </p>
+      </div>
+      <div class="btn">
+        <button class="btn-outline-light" onclick="navigateToUpload()">
+          Start
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function navigateToUpload() {
+      window.location.href = "/upload";
+    }
+  </script>
+</body>
+</html>

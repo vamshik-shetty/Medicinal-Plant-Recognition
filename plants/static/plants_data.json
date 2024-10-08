@@ -1,0 +1,105 @@
+{
+    "plants": [
+      {
+        "id": 1,
+        "imageUrl": "/static/images/plant1.jpg",
+        "scientificName": "Aloe barbadensis",
+        "localName": "Aloe vera",
+        "medicinalBenefits": [
+          "Aloe vera is widely known for its soothing effect on burns and skin irritations, aiding in quicker wound healing.",
+          "It also has anti-inflammatory properties that help in reducing redness and swelling."
+        ]
+      },
+      {
+        "id": 2,
+        "imageUrl": "/static/images/plant2.jpg",
+        "scientificName": "Moringa oleifera",
+        "localName": "Drumstick tree",
+        "medicinalBenefits": [
+          "Moringa oleifera has strong anti-inflammatory effects that can help manage symptoms of arthritis and joint pain.",
+          "Its rich antioxidant content helps in protecting cells from oxidative damage and supports overall immune function."
+        ]
+      },
+      {
+        "id": 3,
+        "imageUrl": "/static/images/plant3.jpg",
+        "scientificName": "Hibiscus rosa-sinensis",
+        "localName": "Chinese hibiscus",
+        "medicinalBenefits": [
+          "Hibiscus rosa-sinensis acts as a powerful antioxidant, protecting the body from damage caused by free radicals.",
+          "It also supports heart health by helping to lower blood pressure and cholesterol levels."
+        ]
+      },
+      {
+        "id": 4,
+        "imageUrl": "/static/images/plant4.jpg",
+        "scientificName": "Catharanthus roseus",
+        "localName": "Vinca rosea",
+        "medicinalBenefits": [
+          "Vinca rosea has potent anti-cancer properties, being used in the treatment of various cancers such as leukemia and lymphoma.",
+          "It also helps in managing diabetes by lowering blood sugar levels."
+        ]
+      },
+      {
+        "id": 5,
+        "imageUrl": "/static/images/plant5.jpg",
+        "scientificName": "Cymbopogon citratus",
+        "localName": "Lemongrass",
+        "medicinalBenefits": [
+          "Cymbopogon citratus has antioxidant properties that help in neutralizing harmful free radicals in the body.",
+          "It aids in digestion and alleviates symptoms such as bloating and indigestion."
+        ]
+      },
+      {
+        "id": 6,
+        "imageUrl": "/static/images/plant6.jpg",
+        "scientificName": "Euphorbia hirta",
+        "localName": "Asthma plant",
+        "medicinalBenefits": [
+          "Euphorbia hirta has strong laxative properties, helping to relieve constipation and promote regular bowel movements.",
+          "It also has anti-asthmatic effects, providing relief from symptoms of asthma and respiratory issues."
+        ]
+      },
+      {
+        "id": 7,
+        "imageUrl": "/static/images/plant7.jpg",
+        "scientificName": "Opuntia ficus-indica",
+        "localName": "Prickly pear",
+        "medicinalBenefits": [
+          "Opuntia ficus-indica helps in managing blood sugar levels, making it beneficial for diabetes control.",
+          "It also has anti-inflammatory properties that can assist in reducing inflammation and promoting digestive health."
+        ]
+      },
+      {
+        "id": 8,
+        "imageUrl": "/static/images/plant8.jpg",
+        "scientificName": "Andrographis paniculata",
+        "localName": "Andrographis",
+        "medicinalBenefits": [
+          "Andrographis paniculata is known for its anti-viral properties, particularly in treating the common cold and flu.",
+          "It also has immune-boosting effects, helping to enhance the body’s natural defense mechanisms."
+        ]
+      },
+      {
+        "id": 9,
+        "imageUrl": "/static/images/plant9.jpg",
+        "scientificName": "Centella asiatica",
+        "localName": "Gotu kola",
+        "medicinalBenefits": [
+          "Centella asiatica promotes wound healing by stimulating collagen production and improving skin repair.",
+          "It also has cognitive benefits, aiding in memory enhancement and reducing symptoms of anxiety."
+        ]
+      },
+      {
+        "id": 10,
+        "imageUrl": "/static/images/plant10.jpg",
+        "scientificName": "Glycyrrhiza uralensis",
+        "localName": "Licorice",
+        "medicinalBenefits": [
+          "Glycyrrhiza uralensis has anti-ulcer properties, helping to protect the stomach lining and prevent ulcers.",
+          "It also acts as an expectorant, aiding in the relief of respiratory conditions such as cough and bronchitis."
+        ]
+      }
+    ]
+  }
+  

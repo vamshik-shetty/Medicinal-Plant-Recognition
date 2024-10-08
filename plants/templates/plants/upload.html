@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'plants/upload.css' %}">
+  <title>Drag and Drop Upload</title>
+</head>
+<body>
+  <section class="container">
+    <div class="dropzone" id="dropzone">
+      <input type="file" id="fileInput" accept="image/*" multiple style="display: none;">
+      <img src="{% static 'images/upload_image.png' %}" alt="upload" class="upload-icon">
+      <h2>
+        Click here to add files <br />
+        or
+        <br /> Drag & Drop files here
+      </h2>
+      <button class="btn btn-outline-info" id="browseFiles">Browse Files</button>
+    </div>
+    <aside class="thumbs-container" id="thumbsContainer"></aside>
+    <!-- Include CSRF Token -->
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="{% static 'scripts/upload.js' %}"></script>
+  <div class="footer"></div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/background.jpeg'); /* Updated path */
+    background-size: cover;/* Combined background color */
+    color: #fff; 
+  }
+  
+  section {
+    font-family: 'Montserat', sans-serif;
+    background-color: #f7f7f7;
+    font-weight: 300;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 80vh;
+  }
+  
+  .container {
+    width: 900px;
+    margin: 50px auto;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+  }
+  
+  .dropzone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    border: 4px dashed rgb(117,112,112);
+    padding: 20px;
+    width: 95%; ;
+    /* position: absolute; */
+  }
+  
+  .dropzone h2{
+    font-size: 2rem; /* Increase font size here */
+    font-weight: 300;
+    color: rgb(117,112,112);
+    text-align: center;
+    margin-bottom: 10px 0;
+    padding: 10px 0;
+  }
+  
+  .upload-icon {
+    margin-top: 30px;
+    width: 60px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: medium;
+    margin-top: 30px;
+  }
+  
+  .btn-outline-info {
+    width: 135px;
+    height: 50px;
+    font-weight: bolder;
+    background: none;
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border 0.3s;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-outline-info:hover {
+    background: #17a2b8;
+    color: #fff;
+  }
+  
+  .thumbs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  
+  .thumb {
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .thumb-inner {
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+  }
+  
+  .thumb img {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  
+  .footer {
+    background-color: #086729; /* Black background */
+    padding: 40px 0; /* Vertical padding */
+    position: fixed; /* Fixed position to stay at the bottom */
+    width: 100%; /* Full width */
+   
+  }
+
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 300px;
+    }
+  
+    .dropzone {
+      padding: 10px;
+      height: 300px;
+    }
+  
+    .dropzone h2 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: smaller;
+      margin-top: 25px;
+    }
+  }
+  

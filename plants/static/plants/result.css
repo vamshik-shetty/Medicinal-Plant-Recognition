@@ -1,0 +1,133 @@
+/* General styling */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/images/background.jpeg'); /* Updated path */
+  background-size: cover; /* Combined background color */
+  color: #fff; 
+}
+
+/* Response block styling */
+.response-block {
+  margin: 50px auto 10px;
+  background-color: #d1ffdb;
+  color: black;
+  height: 60vh;
+  width: 60vw;
+  border: 15px solid #d9d9d9;
+  border-radius: 10px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.response_heading {
+  text-align: center;
+  font-size: 3rem; /* Increased font size */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.response-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  
+  width: 750px;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#scientificName,
+#localNameText {
+  font-size: 1.4rem; /* Adjust this value as needed */
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+#medicinalBenefits {
+  text-align: left;
+  font-size: 1.4rem;
+  list-style-type: disc; /* Numbered list */
+  margin: 0;                /* No extra margin */
+  padding-left: 20px;       /* Indentation for list items */
+}
+
+
+.right_side {
+  text-align: left; /* Align text to the left */
+}
+
+.m {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.4rem; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.left_side .img {
+  max-width: 800px;
+  height: auto;
+}
+
+.left_side img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Button styling */
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-success {
+  margin-top: 40px;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn + .btn {
+  margin-left: 50px; /* Adjust the value to your preference */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px
+}
+
+.img{
+  width: 300px;
+  height: 300px;
+}
